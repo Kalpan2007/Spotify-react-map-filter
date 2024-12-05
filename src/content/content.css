@@ -1,0 +1,95 @@
+.content{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .firstrow{
+    
+  }
+  .firstpic{
+    height: 5vh;
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+  
+  .secondpic{
+    height: 5vh;
+    margin-left: 960px;
+  }
+  .secrowh{
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+  
+  .secondrow{
+    display: flex;
+    margin-left: 20px;
+  }
+  
+  
+  /* Container for Liked Songs section */
+  .liked-songs-container {
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  
+  .liked-song-item {
+    display: flex;
+    align-items: center;
+    background-color: #282828;
+    border-radius: 10px;
+    width: 270px;
+    height: 80px;
+    box-sizing: border-box;
+  }
+  
+  
+  .liked-song-image {
+    width: 80px;  
+    height: 80px; 
+  }
+  
+  
+  .liked-song-text {
+    margin-left: 30px;
+    font-size: 20px;
+  }
+  
+  .thirdrow{
+    margin-left: 20px;
+  }
+  
+  .syml{
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+  .fourthrow{
+    display: flex;
+  
+  }
+  
+  .box-1 {
+    background-color: #282828;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 20PX;
+    padding-right: 20px;
+  }
+  
+  .box-1 > div {
+    padding-top: 10px;
+  }
